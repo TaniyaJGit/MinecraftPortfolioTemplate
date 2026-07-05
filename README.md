@@ -1,105 +1,49 @@
-# Minecraft Portfolio Template
+# TaniyaCraft Portfolio
 
-This is a customizable Minecraft-style portfolio website template. It is set up as a multi-section portfolio with a home screen, About Me page, Projects page, Creative Works gallery, Experiences page, Music page, contact modal, resume link, and a browser tab logo.
+This is my personal portfolio website, built with a Minecraft-inspired theme to make it feel more creative and different from a regular portfolio.
 
-## How to customize it
+The site includes sections for my projects, experience, creative work, and a little bit about me. I wanted it to show both my technical side and my creative/design side, since I’m interested in web development, design, and building interactive projects.
 
-Open the files in a code editor like VS Code and replace all of the current placeholder inputs, example text, filler links, sample images, and sample files with your own content.
+## Features
 
-Most of the main text is inside `index.html`. Look for placeholder wording like:
+* Minecraft-style visual theme
+* Multi-page portfolio layout
+* Projects section with live links
+* Experience and involvement section
+* Creative works/gallery section
+* Responsive layout for different screen sizes
+* Custom styling with HTML, CSS, and JavaScript
 
-- `[Your Name]`
-- `[Name] [Last Name]`
-- `Input text`
-- `Input text here`
-- `Project Title Here`
-- `Another Project Title`
-- `Project Link`
-- `Skill 1`, `Skill 2`, `Tool 1`
-- `Input caption here`
+## Tech Used
 
-Replace those with your real portfolio information.
+* HTML
+* CSS
+* JavaScript
 
-## File structure
+## How to Use This Template
 
-```text
-mobile-friendly-portfolio/
-├── index.html
-├── logo.png
-├── README.md
-└── assets/
-    ├── css/
-    │   └── styles.css
-    └── js/
-        ├── script-1.js
-        ├── script-2.js
-        ├── script-3.js
-        ├── script-4.js
-        ├── script-5.js
-        └── script-6.js
-```
+You can use this portfolio as a starting point for your own site.
 
-## Important files
+To customize it:
 
-### `index.html`
-This is the main website file. Edit this file to change page titles, section text, project cards, creative work captions, contact content, resume link, and button labels.
+1. Replace the current name, bio, and about information with your own.
+2. Update the projects with your own project names, descriptions, and links.
+3. Replace any images, icons, or filler assets with your own files.
+4. Edit the experience section to match your own roles, clubs, jobs, or achievements.
+5. Change the colours, fonts, and styling if you want a different theme.
 
-### `assets/css/styles.css`
-This controls the design, layout, colors, spacing, Minecraft-style buttons, desktop layout, and mobile responsive layout.
+## Pages Included
 
-### `assets/js/`
-These JavaScript files control page switching, music controls, galleries, modals, timeline interactions, and other interactive parts of the template.
+* Home
+* About
+* Projects
+* Experience
+* Creative Works
 
-### `logo.png`
-This is used as the browser tab icon. You can replace it with your own image, but keep the filename as `logo.png` unless you also update the icon link in `index.html`.
+## Notes
 
-## Replacing images and music
+This portfolio was made to feel fun and personal while still showing my work clearly. It is meant to be easy to edit, so most of the main content can be changed directly in the HTML files.
 
-The template expects image and music files to be placed in folders such as:
+## Live Demo
 
-```text
-images/
-music/
-```
-
-Replace the filler images and music with your own files. If you rename files, make sure to also update the matching `src="..."` paths in `index.html`, CSS, or JavaScript.
-
-Examples:
-
-```html
-<img src="images/your-image.png" alt="Description here">
-<audio src="music/your-song.mp3"></audio>
-```
-
-## Resume
-
-The resume button currently points to:
-
-```html
-resume.pdf
-```
-
-To use it, add your resume PDF to the main project folder and name it `resume.pdf`, or update the link in `index.html` to match your file name.
-
-## Mobile friendly layout
-
-This version includes mobile-friendly styling. On smaller screens, the layout adjusts so buttons, cards, galleries, modals, projects, and the experiences section fit better on phones.
-
-## How to preview the website
-
-You can open `index.html` directly in your browser. For a better preview, use VS Code with the Live Server extension.
-
-## Before publishing
-
-Before uploading the portfolio online, check that you replaced:
-
-- All placeholder names
-- All filler text
-- All fake project links
-- All sample images
-- All sample music files
-- The resume PDF
-- Contact information
-- Copyright name/year if needed
-
-After replacing the placeholders, the template is ready to publish on platforms like GitHub Pages, Netlify, or Vercel.
+https://minecraft-portfolio-template.vercel.app
